@@ -8,14 +8,14 @@ URL: http://designscrazed.org/
 /* Table of Content
 ==================================================
   1. COMMON STYLES
-  2. SECTION HOME 
+  2. SECTION HOME
   3. SECTION ABOUT
   4. SECTION VIDEO
-  5. SECTION FEATURES 
+  5. SECTION FEATURES
   6. SECTION CALL TO ACTION
-  7. SECTION SECURITY 
-  8. SECTION PARTNERS 
-  9. SECTION FOOTER 
+  7. SECTION SECURITY
+  8. SECTION PARTNERS
+  9. SECTION FOOTER
 
 */
 * {
@@ -32,7 +32,7 @@ p {
     font-size: 14px;
 }
 /*---------------------------------------
-   COMMON STYLES             
+   COMMON STYLES
 -----------------------------------------*/
 
 .section_title {
@@ -79,7 +79,7 @@ p {
     background-size: cover;
 }
 /*---------------------------------------
-   SECTION HOME              
+   SECTION HOME
 -----------------------------------------*/
 /*menu*/
 
@@ -150,6 +150,9 @@ p {
     background-color: #e4e4e4;
     color: #008753;
 }
+.nav>li>a {
+  text-transform: uppercase;
+}
 .header {
     background: url(../imgs/OccuyNigeriaProtest.jpg);
     background-size: cover;
@@ -159,12 +162,11 @@ p {
     background-color: rgba(33, 33, 33, .25);
 }
 .logo{
-    padding-bottom: 50px;
+    padding-top: 160px;
 }
 .home_text{
     text-align: center;
     text-shadow: 10px 10px 15px #000000;
-    padding-top: 300px;
 }
 .home_text h1 {
     color: #fff;
@@ -232,14 +234,13 @@ tuor:visited {
     color: #008753;
 }
 /*---------------------------------------
-   SECTION ABOUT              
+   SECTION ABOUT
 -----------------------------------------*/
 .about {
     background: #e4e4e4;
 }
 .inner_about_area {
     padding-top: 25px;
-    padding-bottom: 25px;
 }
 .inner_about_title {
     padding-bottom: 50px;
@@ -309,7 +310,7 @@ tuor:visited {
     }
 }
 /*---------------------------------------
-   SECTION VIDEO              
+   SECTION VIDEO
 -----------------------------------------*/
 
 .video_area {
@@ -370,20 +371,20 @@ tuor:visited {
     padding: 5px;
 }
 /*---------------------------------------
-   SECTION FAQ              
+   SECTION FAQ
 -----------------------------------------*/
 
 .features {
     background-color: #f1f1f1
 }
 .feature_inner {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 .right_single_feature {
     position: relative;
     padding-left: 90px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
     margin-top: 35px;
 }
 .right_single_feature div {
@@ -418,7 +419,7 @@ tuor:visited {
 .center_single_feature {
     position: relative;
     padding-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
     margin-top: 35px;
 }
 .center_single_feature div {
@@ -453,7 +454,7 @@ tuor:visited {
 .left_single_feature {
     position: relative;
     padding-right: 90px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
     text-align: right;
     margin-top: 35px;
 }
@@ -503,7 +504,7 @@ tuor:visited {
     }
 }
 /*---------------------------------------
-   SECTION CALL TO ACTION              
+   SECTION CALL TO ACTION
 -----------------------------------------*/
 
 .call_to_action {
@@ -537,7 +538,7 @@ tuor:visited {
 }
 
 /*---------------------------------------
-   SECTION SECURITY SCREEN             
+   SECTION SECURITY SCREEN
 -----------------------------------------*/
 
 .security {
@@ -566,7 +567,7 @@ tuor:visited {
     background: #008753;
 }
 /*---------------------------------------
-   SECTION PARTNERS              
+   SECTION PARTNERS
 -----------------------------------------*/
 
 .partners {
@@ -579,7 +580,7 @@ tuor:visited {
     width: 50%;
 }
 .features-row{
-    width: 800px;
+    width: 2600px;
     margin: auto;
     padding-bottom: 30px;
 }
@@ -595,10 +596,8 @@ tuor:visited {
     padding-left: -50px;
     padding-bottom: 10px;
 }
-
-
 /*---------------------------------------
-   SECTION FOOTER              
+   SECTION FOOTER
 -----------------------------------------*/
 
 .copyright {
@@ -717,7 +716,7 @@ select:-webkit-autofill {
 }
 
 /*---------------------------------------
-   SECTION SLIDER             
+   SECTION SLIDER
 -----------------------------------------*/
 
 /* http://www.menucool.com/jquery-slider */
@@ -743,7 +742,7 @@ select:-webkit-autofill {
     margin:0;
 }
 
- 
+
 #thumbnail-slider div.inner ul {
     /*the followings should not be changed */
     white-space:nowrap;
@@ -808,7 +807,7 @@ select:-webkit-autofill {
     top: 50%;
     margin:0;
     margin-top:-30px;
-    color:white;    
+    color:white;
     z-index:10;
     cursor:pointer;
 }
