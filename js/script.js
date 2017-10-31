@@ -1,8 +1,6 @@
 //LOADER/SPINNER
 $(window).bind("load", function() {
-
     "use strict";
-    
     $(".spn_hol").fadeOut(1000);
 });
 
@@ -11,11 +9,11 @@ $(window).bind("load", function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).scroll(function() {
 
         "use strict";
-        
+
         if ($(window).scrollTop() > 80) {
             $(".navbar").css({
                 'margin-top': '0px',
@@ -54,39 +52,33 @@ $(document).ready(function() {
     });
 });
 
-
-
-
- // MENU SECTION ACTIVE
+// MENU SECTION ACTIVE
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(".navbar-nav li a").click(function() {
 
         "use strict";
-        
+
         $(".navbar-nav li a").parent().removeClass("active");
         $(this).parent().addClass("active");
     });
 });
 
-
-
 // Hilight MENU on SCROLl
-
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).scroll(function() {
 
         "use strict";
-        
+
         $(".page").each(function() {
 
             "use strict";
-            
+
             var bb = $(this).attr("id");
             var hei = $(this).outerHeight();
             var grttop = $(this).offset().top - 70;
@@ -99,13 +91,9 @@ $(document).ready(function() {
     });
 });
 
-
-
 //SMOOTH MENU SCROOL
-
-
 $(function() {
-	
+
 	"use strict";
 
   $('a[href*=#]:not([href=#])').click(function() {
@@ -122,17 +110,15 @@ $(function() {
   });
 });
 
-
-
 // FIX HOME SCREEN HEIGHT
 $(document).ready(function() {
 
     "use strict";
-    
+
     setInterval(function() {
 
         "use strict";
-        
+
         var widnowHeight = $(window).height();
         var containerHeight = $(".home-container").height();
         var padTop = widnowHeight - containerHeight;
@@ -143,13 +129,11 @@ $(document).ready(function() {
     }, 10)
 });
 
-
-
 //PARALLAX
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).bind('load', function() {
         "use strict";
         parallaxInit();
@@ -164,107 +148,14 @@ $(document).ready(function() {
     }
 });
 
-
-
-//OWL CAROSEL
-$(document).ready(function() {
-
-    "use strict";
-    
-    $("#owl-demo").owlCarousel({
-        autoPlay: 3000,
-        items: 4, //10 items above 1000px browser width
-        itemsDesktop: [1370, 3], //5 items between 1000px and 901px
-        itemsDesktopSmall: [900, 2], // betweem 900px and 601px
-        itemsTablet: [600, 1], //2 items between 600 and 0
-    });
-});
-
-
-    
- //PRETTYPHOTO
-
-$(document).ready(function() {
-
-    "use strict";
-
-    $("a[rel^='prettyPhoto']").prettyPhoto({
-        show_title: false,
-        /* true/false */
-    });
-});
-
-
-
 //WOW JS
 $(document).ready(function() {
-
     "use strict";
- 
     new WOW().init();
 });
 
-
-
 //RESPONSIVE VIDEO
 $(document).ready(function() {
-
     "use strict";
-    
-    // Basic FitVids Test
     $(".video").fitVids();
 });
-
-
- 
-/// SMOOTH SCROLL           
-
-$(document).ready(function() {
-
-    "use strict";
-    
-    var scrollAnimationTime = 1200,
-        scrollAnimation = 'easeInOutExpo';
-    $('a.scrollto').bind('click.smoothscroll', function(event) {
-        event.preventDefault();
-        var target = this.hash;
-        $('html, body').stop().animate({
-            'scrollTop': $(target).offset().top
-        }, scrollAnimationTime, scrollAnimation, function() {
-            window.location.hash = target;
-        });
-    });
-    //COUNTER
-    $('.counter_num').counterUp({
-        delay: 10,
-        time: 2000
-    });
-});
-
-
-
-//VIDEO BACKGROUND
-$(document).ready(function() {
-  var videobackground = new $.backgroundVideo($('body'), {
-    "align": "centerXY",
-    "width": 1280,
-    "height": 720,
-    "path": "media/",
-    "filename": "cloud",
-    "types": ["mp4","ogg","webm"]
-  });
-});
-
-
-
-$(document).ready(function() {
-            $('#myCarousel').carousel({
-            interval: 10000
-            })
-
-            $('#myCarousel').on('slid.bs.carousel', function() {
-                //alert("slid");
-            });
-
-
-        });
