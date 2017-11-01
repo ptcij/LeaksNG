@@ -580,7 +580,7 @@ tuor:visited {
     width: 50%;
 }
 .features-row{
-    width: 2600px;
+    width: 2600px !important;
     margin: auto;
     padding-bottom: 30px;
 }
