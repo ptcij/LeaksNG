@@ -162,7 +162,7 @@ p {
     background-color: rgba(33, 33, 33, .25);
 }
 .logo{
-    padding-top: 160px;
+    padding-top: 140px;
 }
 .home_text{
     text-align: center;
@@ -173,18 +173,18 @@ p {
     font-size: 60px;
     font-weight: 500;
     line-height: 45px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 .home_text p {
     color: #fff;
     font-size: 30px;
-    line-height: 28px;
+    line-height: 40px;
     margin-top: 0px;
     font-weight: 300;
     padding-top: 20px;
 }
 .download-btn {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 .home-btn,
@@ -580,7 +580,7 @@ tuor:visited {
     width: 50%;
 }
 .features-row{
-    width: 2600px !important;
+    width: 2600px;
     margin: auto;
     padding-bottom: 30px;
 }
